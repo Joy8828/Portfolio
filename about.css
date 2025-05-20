@@ -1,0 +1,10 @@
+fieldset{border: 2px solid #2CFF05;
+padding: 8px;
+border-radius: 8px;
+max-width:2000px;
+margin: 100px;
+}
+legend{color: #2CFF05;}
+p{color: whitesmoke;
+font-size: large;}
+body{background-color: black;}

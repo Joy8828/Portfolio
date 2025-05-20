@@ -1,0 +1,37 @@
+h1{color: whitesmoke;
+text-align: center;
+background-color: #2CFF05;}
+.bunch{background-color: black;
+overflow: hidden;}
+.bunch a{float: right;
+color: blueviolet;
+padding: 12px;
+text-align: center;}
+.bunch a:hover{background-color: whitesmoke;}
+.bunch a.active{background-color: #2CFF05;}
+body{background-color: black;}
+img{width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2CFF05;}
+img:hover{transform: rotateY(360deg);
+transition:2s;}
+h2{position: relative;
+    animation: grow 3s;
+    animation-fill-mode: forwards;
+font-size:400%;}
+h2:hover{transform: scaleX(1.5);
+transition:2s;}
+@keyframes grow{
+    from{left: 0px;
+    color: #2CFF05;}
+    to{left: 200px;
+    color: whitesmoke;}
+}
+fieldset{border: 2px solid #2CFF05;
+padding: 8px;
+  border-radius: 8px;
+alignment-baseline: right;}
+legend{color: #2CFF05;}
+p{color: whitesmoke;}
